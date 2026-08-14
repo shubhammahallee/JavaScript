@@ -25,3 +25,17 @@ switch (food) {
     default:
         console.log("other food not in the menu");
 }
+
+
+let i = 0;
+while (i <= 5) {
+    console.log(i);
+    i++;
+}
+
+
+let j = 10;
+do {
+    console.log(j);
+    j--;
+} while (j >= 5);
