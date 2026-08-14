@@ -12,7 +12,7 @@ console.log('ur' + 'vi');
 let name = "Urvi";
 const age = 21;
 var city = "Pune";
-let weight = 75.5;
+let weight = 65.5;
 let height = 165.5;
 let isStudent = true;
 console.log(name, age, city, 'weight ' + weight + 'kg', 'height ' + height + 'cm', isStudent);
@@ -35,6 +35,11 @@ console.log(name, age, city, 'weight ' + weight + 'kg', 'height ' + height + 'cm
 // Assignment Operators
 // Comparison Operators
 // Logical Operators
+// Exponential Operator
+let a = 2;
+let b = 3;
+console.log(a ** b);
+
 
 
 // ==================== CONDITIONAL STATEMENTS ====================
