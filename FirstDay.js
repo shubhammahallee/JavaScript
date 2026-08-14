@@ -9,7 +9,7 @@ console.log('ur' + 'vi');
 
 // Variable Declaration //Literals
 
-let name = "Shubham";
+let name = "Urvi";
 const age = 21;
 var city = "Pune";
 let weight = 75.5;
