@@ -7,12 +7,15 @@ console.log('ur' + 'vi');
 
 // ==================== VARIABLES ====================
 
-// Variable Declaration
+// Variable Declaration //Literals
 
 let name = "Shubham";
 const age = 21;
 var city = "Pune";
-console.log(name, age, city);
+let weight = 75.5;
+let height = 165.5;
+let isStudent = true;
+console.log(name, age, city, 'weight ' + weight + 'kg', 'height ' + height + 'cm', isStudent);
 
 
 // ==================== DATA TYPES ====================
