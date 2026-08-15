@@ -1,15 +1,9 @@
-// ==================== FUNCTIONS ====================
-
-// Function without parameters and return value
-
 function greet() {
-    console.log("Hello");
+    console.log("hello");
 }
 
 greet();
 
-
-// Function with parameters and return value
 
 function add(a, b) {
     return a + b;
@@ -18,10 +12,21 @@ function add(a, b) {
 console.log(add(1, 2));
 
 
-// Function with parameters but without return value
-
-function addNumbers(a, b) {
-    console.log(a + b);
+function add(a, b) {
+    console.log(a + b)
 }
+add(3, 6);
 
-addNumbers(3, 6);
+
+// ==================== ARROW FUNCTIONS ====================
+
+const add = (a, b) => {
+    return a + b;
+};
+
+console.log(add(1, 2));
+
+
+const add = (a, b) => a + b;
+
+console.log(add(1, 2));
