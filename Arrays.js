@@ -113,3 +113,4 @@ console.log("--------------------------------------------");
 
 // forEach with implicit arrow function
 arr2.forEach(element => console.log(element));
+ 
