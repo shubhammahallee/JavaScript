@@ -46,7 +46,7 @@ console.log(arr.join("-")); // Join array elements using the specified separator
 
 console.log("--------------------------------------------");
 
-// ==================== ARRAY ITERATION ====================
+// ==================== ARRAY ITERATION ==================== 
 
 // Traditional for loop
 for (let i = 0; i < arr.length; i++) {
