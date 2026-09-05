@@ -9,7 +9,6 @@ else {
     console.log("a is greater than c");
 }
 
-
 let food = "masta";
 
 switch (food) {
