@@ -1,7 +1,7 @@
 // ==================== GLOBAL & LOCAL SCOPE ====================
 
 // Global variables
-let x = 5;
+let x = 5; 
 let y = 10;
 
 
