@@ -1,4 +1,4 @@
-let a = 5, b = 7, c = 9;
+let a = 5, b = 7, c = 9; 
 if (a < b) {
     console.log("b is greater than a");
 }
