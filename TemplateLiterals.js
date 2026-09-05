@@ -1,6 +1,6 @@
 const name = "Urvi";
 const age = 21; 
-const city = "Pune";
+const city = "Pune"; 
 
 // ==================== TEMPLATE LITERALS ====================
 
