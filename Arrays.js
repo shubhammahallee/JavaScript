@@ -20,7 +20,7 @@ console.log(arr.push(7)); // Add element at end and return new length
 
 console.log(arr.shift()); // Remove and return first element
 console.log(arr.pop()); // Remove and return last element
-
+ 
 console.log(arr.splice(2, 2)); // Remove 2 elements starting from index 2
 console.log(arr.slice(2, 4)); // Return elements from index 2 to 4 (end index excluded) 
 
