@@ -1,0 +1,17 @@
+let str = 'abcdefghijklm';
+let vowelCount = 0;
+let consonantCount = 0;
+const vowels = 'aeiou';
+
+for (let i = 0; i < str.length; i++) {
+  const char = str[i].toLowerCase();
+
+  if (vowels.includes(char)) {
+    vowelCount++;
+  } else if (char >= 'a' && char <= 'z') {  // only count letters
+    consonantCount++;
+  }
+}
+
+console.log("Vowels:", vowelCount);       // 3
+console.log("Consonants:", consonantCount); // 10
