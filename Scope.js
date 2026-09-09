@@ -3,7 +3,7 @@
 // Global variables
 let x = 5; 
 let y = 10;
-
+ 
 
 // Local variable inside function
 function demonstrateLocalScope() {
