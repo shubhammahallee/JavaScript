@@ -2,47 +2,47 @@
 
 let arr = [1, 2, 3, 4, 5];  
 
-console.log(arr);
+console.log(arr); 
 console.log(arr.length);
 
-console.log(arr[0]);   // Access element using index 
-console.log(arr[1]);
-console.log(arr[2]);
-console.log(arr[3]);
-console.log(arr[4]); 
+console.log(arr[0]);   // Access the first element using index 0
+console.log(arr[1]);   // Access the second element using index 1
+console.log(arr[2]);   // Access the third element using index 2
+console.log(arr[3]);   // Access the fourth element using index 3
+console.log(arr[4]);   // Access the fifth element using index 4
 
 console.log("--------------------------------------------");  
 
 // ==================== ADD / REMOVE ELEMENTS ====================
 
-console.log(arr.unshift(6)); // Add element at beginning and return new length
-console.log(arr.push(7)); // Add element at end and return new length
+console.log(arr.unshift(6)); // Add an element at the beginning and return the new array length
+console.log(arr.push(7)); // Add an element at the end and return the new array length
 
-console.log(arr.shift()); // Remove and return first element
-console.log(arr.pop()); // Remove and return last element
+console.log(arr.shift()); // Remove and return the first element
+console.log(arr.pop()); // Remove and return the last element
  
-console.log(arr.splice(2, 2)); // Remove 2 elements starting from index 2
-console.log(arr.slice(2, 4)); // Return elements from index 2 to 4 (end index excluded) 
+console.log(arr.splice(2, 2)); // Remove 2 elements starting from index 2 and return the removed elements
+console.log(arr.slice(2, 4)); // Return elements from index 2 up to index 4 (index 4 is excluded); original array remains unchanged
 
 console.log("--------------------------------------------");
 
 // ==================== SEARCH METHODS ====================
 
-console.log(arr.indexOf(0)); // Return index; returns -1 if element is not found
-console.log(arr.indexOf(7)); // Return index; returns -1 if element is not found
+console.log(arr.indexOf(0)); // Return the index of the element; return -1 if the element is not found
+console.log(arr.indexOf(7)); // Return the index of the element; return -1 if the element is not found
 
-console.log(arr.includes(0)); // Return true if element exists, otherwise false
-console.log(arr.includes(7)); // Return true if element exists, otherwise false
+console.log(arr.includes(0)); // Return true if the element exists; otherwise return false
+console.log(arr.includes(7)); // Return true if the element exists; otherwise return false
 
 console.log("--------------------------------------------");
 
 // ==================== ARRAY TRANSFORMATION ====================
 
-console.log(arr.reverse()); // Reverse the array
-console.log(arr.sort()); // Sort the array
+console.log(arr.reverse()); // Reverse the order of elements in the array
+console.log(arr.sort()); // Sort the elements in the array
 
-console.log(arr.toString()); // Convert array into a string
-console.log(arr.join("-")); // Join array elements using the specified separator
+console.log(arr.toString()); // Convert the array into a string
+console.log(arr.join("-")); // Convert array elements into a string using "-" as the separator
 
 console.log("--------------------------------------------");
 
@@ -113,4 +113,3 @@ console.log("--------------------------------------------");
 
 // forEach with implicit arrow function
 arr2.forEach(element => console.log(element));
- 
