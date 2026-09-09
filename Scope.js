@@ -18,7 +18,7 @@ demonstrateLocalScope();
 
 // Local variable belongs only to its function
 function demonstrateLocalVariable() {
-    let z = 12;
+    let z = 12; 
 
     console.log(z);
 }
