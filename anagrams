@@ -1,0 +1,15 @@
+//Check whether two strings are anagrams.
+
+function anagrams(str1,str2){
+  let sort1 = str1.split('').sort().join('');
+  let sort2 = str2.split('').sort().join('');
+
+  if(sort1 === sort2){
+    return "Anagrams";
+  }else{
+    return "Not Anagrams";
+  }
+  
+}
+
+console.log(anagrams('exist','sexit'));
