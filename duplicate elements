@@ -1,0 +1,14 @@
+//Find duplicate elements in an array.
+
+let arr = [1,2,3,4,5,4];
+let dup = [];
+
+for(let i=0;i<arr.length;i++){
+  if(arr.indexOf(arr[i]) !== arr.lastIndexOf(arr[i])){
+    if(!dup.includes(arr[i])){
+      dup.push(arr[i]);
+    }
+  }
+}
+
+console.log(dup);
