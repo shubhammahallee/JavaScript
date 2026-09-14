@@ -1,0 +1,15 @@
+// Find the missing number from 1 to n.
+
+let arr = [1,2,3,5];
+let n = 5;
+
+let total = n * (n + 1) / 2;
+let sum = 0;
+
+for(let i=0;i<arr.length;i++){
+  sum += arr[i];
+}
+
+let missing = total - sum;
+
+console.log(missing);
